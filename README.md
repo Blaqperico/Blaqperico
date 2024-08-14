@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Message</title>
-    <style>
-        body {
+
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             padding: 20px;
         }
-        .welcome-message {
+        {
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -19,22 +12,20 @@
             margin: 0 auto;
             text-align: center;
         }
-        .welcome-message h1 {
+         {
             font-size: 24px;
             color: #333333;
         }
-        .welcome-message p {
+        . {
             font-size: 16px;
             color: #666666;
             line-height: 1.6;
         }
-    </style>
-</head>
-<body>
+    
 
 <div class="welcome-message" id="welcomeMessage"></div>
 
-<script>
+
     const welcomeMessage = `
         <h1>🎨 Welcome to [AYOOLAADEGBAJU] Graphic Design! 🎨</h1>
         <p>Hello there! I’m thrilled to have you here. My name is <strong>Ayoola</strong>, 
@@ -48,10 +39,7 @@
     `;
 
     getElementById('welcomeMessage').innerHTML = welcomeMessage;
-</script>
 
-</body>
-</html>
 
 <!---
 Blaqperico/Blaqperico is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
